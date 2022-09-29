@@ -36,10 +36,10 @@ services:
       - "21:21"
       - "30000-30009:30000-30009"
     volumes:
-      - ./data:/home/mehdi
+      - ./data:/home/elyas
       - ./ftp/passwd:/etc/pure-ftpd/passwd
     environment:
-      PUBLICHOST: "use you machine ip add"
+      PUBLICHOST: "use your machine ip add"
       FTP_USER_NAME: ftp
       FTP_USER_PASS: ftp
       FTP_USER_HOME: set you path that you want to share with ftp #### Example =>     /home/root
